@@ -1,6 +1,6 @@
-# Django Guide
+#Django Guide
 
-## Prerequisites
+##Prerequisites
 * Install Python
 * _[optional]_ [Setup Database](#setup-database) _(sqlite3 as example)_
 
@@ -30,4 +30,4 @@
 * a
 
 
-## Setup Database _(sqlite3 as example)_
+##Setup Database
