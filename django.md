@@ -3,7 +3,8 @@
 ##Prerequisites
 * Install Python
 * Install virtualenvwrapper-win (if windows obvs)
-* _[optional]_ Setup Database
+* Install Django
+* _<optional>_ Setup Database
 
 
 ###Install Python
@@ -17,9 +18,24 @@
 * New user environment variable (WORKON_HOME: (eg. c:\python envs))
 * See https://pypi.org/project/virtualenvwrapper-win/ for full list of virtualenv commands
 
+###Install Django (must be done for each django project)
+* cmd prompt / shell 
+
 ###setup database _(sqlite3 as example)_
 
 
 ##Steps
 * Create or clone project
 * Create a new virtual env & point it at the project
+* Install Django
+
+###Create a new python virtual env & point it at the project
+* cmd prompt / shell 
+* $ mkvirtualenv -a <path to django project> <virtual env name>
+* example for above $ mkvirtualenv -a 'c:/python envs/project-one-env'
+  
+###Install Django
+* cmd prompt / shell
+* $ workon <virtual env name>
+* $ pip install django
+* verify with $ django-admin --version
