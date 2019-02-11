@@ -1,31 +1,33 @@
 # Django Guide
 
 ## Prerequisites
-* python
-* _[optional]_ database _(sqlite3 as example)_ [goto](#anchor-test)
+* Install Python
+* _[optional]_ [Setup Database](#setup-database) _(sqlite3 as example)_
 
-a
-a
-a
-a
+* a
+* a
 
-a
-a
-a
-a
-a
-a
+* a
+* a
 
-aa
-a
-a
+* a
+* a
 
-a
-a
-a
-a
-a
-aa
+* a
+* a
+* a
+
+* a
+
+* a
+
+* a
+
+* a
+
+* a
+
+* a
 
 
-## _[optional]_ database _(sqlite3 as example)_ (#anchor-test)
+## Setup Database _(sqlite3 as example)_
